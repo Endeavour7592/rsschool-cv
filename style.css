@@ -1,0 +1,38 @@
+* {
+  font: helvetica, sans-serif;
+  background-color: lightblue;
+  max-width: 1024px;
+}
+.header {
+  text-align: center;
+  display: flex;
+}
+.name {
+  flex: 5;
+
+  font-size: 50px;
+}
+.photo {
+  flex: 1;
+}
+.presentation {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.small-inf {
+  display: inline-flex;
+  align-items: center;
+  text-align: center;
+}
+.list {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0;
+}
+.list li {
+  margin-right: 35px;
+}
+a {
+  padding: 35px;
+}
